@@ -20,7 +20,12 @@ export default function Home() {
             <p>Right Here</p>
           </a>
 
-          <a className={styles.card}>
+          <a
+            href="https://computer-science-study-dashboard.vercel.app/"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <h3>See Progress &rarr;</h3>
             <p>Dashboard</p>
           </a>
