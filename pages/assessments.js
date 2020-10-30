@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -35,6 +36,11 @@ export default function Home() {
             <h3>Women Who Code &rarr;</h3>
             <p>Code of Social Good</p>
           </a>
+          <h2>
+            <Link href="/">
+              <a>Back to home</a>
+            </Link>
+          </h2>
         </div>
       </main>
       <footer className={styles.footer}></footer>

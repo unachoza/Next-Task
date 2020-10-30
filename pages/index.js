@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -14,19 +15,25 @@ export default function Home() {
           Welcome to <a href="">Arianna's Typescript Task Mate!</a>
         </h1>
         <div className={styles.grid}>
-          <a className={styles.card}>
-            <h3>First Card &rarr;</h3>
+          <a href="/assessments" className={styles.card}>
+            <h3>Assesments &rarr;</h3>
             <p>Right Here</p>
           </a>
 
           <a className={styles.card}>
-            <h3>Second Card &rarr;</h3>
-            <p> More interactive stuff!</p>
+            <h3>See Progress &rarr;</h3>
+            <p>Dashboard</p>
           </a>
 
-          <a className={styles.card}></a>
-
-          <a className={styles.card}></a>
+          <a
+            href="https://unachoza.github.io/Thoughts-on-Algorithms-DataStructures/"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h3>Alogrithm Practice &rarr;</h3>
+            <p>See the code</p>
+          </a>
         </div>
       </main>
 
