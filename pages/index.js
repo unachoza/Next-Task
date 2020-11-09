@@ -23,7 +23,6 @@ export default function Home() {
           <a
             href="https://computer-science-study-dashboard.vercel.app/"
             className={styles.card}
-            target="_blank"
             rel="noopener noreferrer"
           >
             <h3>See Progress &rarr;</h3>
@@ -33,11 +32,18 @@ export default function Home() {
           <a
             href="https://unachoza.github.io/Thoughts-on-Algorithms-DataStructures/"
             className={styles.card}
-            target="_blank"
             rel="noopener noreferrer"
           >
             <h3>Alogrithm Practice &rarr;</h3>
             <p>See the code</p>
+          </a>
+          <a src="externalFiles/playlist.html" className={styles.card} rel="noopener noreferrer">
+            <h3>Harvard CS Lectures &rarr;</h3>
+            <p>Private Youtube Playlist</p>
+          </a>
+          <a src="https://github.com/WomenWhoCode/wwcsf-algos" className={styles.card} rel="noopener noreferrer">
+            <h3>Women Who Code SF&rarr;</h3>
+            <p>Github Repo of Study Resources</p>
           </a>
         </div>
       </main>
