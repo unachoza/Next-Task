@@ -45,6 +45,12 @@ export default function Home() {
             <h3>Women Who Code SF&rarr;</h3>
             <p>Github Repo of Study Resources</p>
           </a>
+          <a src="https://www.coursera.org/in-progress" className={styles.card} rel="noopener noreferrer">
+            <h3>Coursera Specializations&rarr;</h3>
+            <p>Data Structures and Algorithms</p>
+            <p>Algorithms</p>
+            <p>Discrete Mathematics for Computer Science</p>
+          </a>
         </div>
       </main>
 
