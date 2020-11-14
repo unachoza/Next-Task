@@ -12,7 +12,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="">Arianna's Typescript Task Mate!</a>
+          Welcome to <a href="">Arianna's Large Enterance</a>
         </h1>
         <div className={styles.grid}>
           <a href="/assessments" className={styles.card}>
@@ -37,7 +37,11 @@ export default function Home() {
             <h3>Alogrithm Practice &rarr;</h3>
             <p>See the code</p>
           </a>
-          <a src="externalFiles/playlist.html" className={styles.card} rel="noopener noreferrer">
+          <a
+            src="https://www.youtube.com/playlist?list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW"
+            className={styles.card}
+            rel="noopener noreferrer"
+          >
             <h3>Harvard CS Lectures &rarr;</h3>
             <p>Private Youtube Playlist</p>
           </a>
